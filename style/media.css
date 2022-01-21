@@ -1,0 +1,231 @@
+@media(max-width:1440px) {}
+
+@media(max-width:1320px) {}
+
+@media(max-width:1290px) {}
+
+@media(max-width:1140px) {}
+
+@media(max-width:1024px) {
+    .header__main{
+        padding: 30px 0;
+    }
+    .info__title{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .coffee{
+       display: none;
+    }
+    .info__text{
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 120%;
+    }
+    .main__container{
+        flex-direction: column-reverse;
+        align-items:center;
+        text-align: center;
+    }
+}
+
+@media(max-width:992px) {
+    .header__top{
+        padding: 15px 0;
+    }
+    .logo{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .form__control span::before{
+        font-size: 15px;
+        margin-right: 3px;
+    }
+    .search__input{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .nav__list:not(:last-child){
+        margin-right: 20px;
+    }
+    .cards{
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+    .lorem{
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+    .lorem__info{
+        margin: 15px auto 15px;
+        text-align: center;
+    }
+    .btn__green{
+        margin: 15px 0;
+    }
+}
+
+@media(max-width:768px) {
+    .nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .info__title{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .main__content{
+        padding: 20px 10px;
+        flex-direction: column-reverse;
+    }
+    .first__item{
+        margin: 0 20px 0 0;
+    }
+    .main__text{
+        margin: 20px 0;
+    }
+    .card__text{
+        margin: 10px 0;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .lorem__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .footer{
+        padding: 15px 0;
+    }
+    .footer__copyright{
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .lorem__info{
+        margin: 0;
+    }
+    .lorem__item{
+        padding: 10px;
+    }
+    .btn__green{
+        font-size: 14px;
+        line-height: 17px;
+        padding: 6px 9px;
+    }
+}
+
+@media(max-width:736px) {}
+
+@media(max-width:734px) {}
+
+@media(max-width:684px) {}
+
+@media(max-width:667px) {
+    .card__info{
+        margin: 0;
+        padding: 10px 15px;
+    }
+}
+
+@media(max-width:576px) {
+    .logo{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .search__icon{
+        margin-right: 2px;
+    }
+    .search__input{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .nav__list:not(:last-child){
+        margin-right: 10px;
+    }
+    .info__title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .main__title{
+        margin-top: 10px;
+        font-size: 25px;
+        line-height: 100%;
+    }
+    .main__text{
+        margin: 10px 0;
+    }
+    .info__text{
+        font-size: 16px;
+    }
+    .header__main{
+        padding: 20px;
+    }
+    .lorem__title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .lorem__text{
+        margin: 15px auto 25px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+@media(max-width:414px) {
+    .form__control{
+        display: none;
+    }
+    .main__content{
+        padding: 10px;
+        flex-direction: column-reverse;
+    }
+    .main__title,
+    .card__title{
+        font-size: 18px;
+        line-height: 100%;
+    }
+    .main__text{
+        font-size: 12px;
+        line-height: 110%;
+    }
+    .footer__content{
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+    .footer__copyright{
+        margin-top: 5px;
+    }
+    .lorem__text {
+        margin: 10px auto 15px;
+        font-size: 14px;
+        line-height: 15px;
+    }
+}
+
+@media(max-width:412px) {}
+
+@media(max-width:375px) {
+    .info__title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .info__text{
+        margin-top: 5px;
+    }
+    .footer__copyright{
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media(max-width:360px) {}
+
+@media(max-width:320px) {
+    .card__info{
+        padding: 10px;
+    }
+}
+
+@media(max-width:280px) {}
